@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  
+</head>
+<body>
+
+  <!-- Tela inicial start -->
+  <section class="container-global">
+  <div class="img"><div>
+
+  </div >
+<div class="img1"><img class="img5"src="./images/icon-star.svg"></div>
+ </div>
+  <div class="container-texto">
+    <h1>How did we do?</h1>
+    <p>Please let us know how we did with your support request. All feedback is appreciated 
+    to help us improve our offering!
+    </p>
+  </div>
+
+  <div class="container-lista">
+  <ul class="container-lista-ul">
+    
+    <div onclick="add(this)" class="d1">   
+        <li>1</li>
+    </div>
+    <div onclick="add(this)" class="d1">   
+      <li>2</li>
+  </div>
+  <div onclick="add(this)" class="d1">   
+    <li>3</li>
+  </div>
+  <div onclick="add(this)" oncli class="d1">   
+  <li>4</li>
+  </div>
+  <div onclick="add(this)" class="d1">   
+  <li>5</li>
+  </div>
+  
+  </ul>  
+  <a href="pag2.html">
+  <button >SUBMIT</button>
+  </a>
+
+</div>
+</section>
+  
+<script>
+a = 0;
+
+ function add(i){
+   i.style.backgroundColor ="#778091";
+  
+  i.children[0].style.color = "#ffffff";
+
+    a++;
+    console.log(a);
+  
+      }
+  
+ 
+    
+  
+
+
+
+
+</script>
+</body>
+</html>
